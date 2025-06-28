@@ -25,12 +25,12 @@ export default function Filter({ data, filteredData, setFilteredData }) {
     };
 
     return (
-        <>
+        <div className='filter-box'>
             <input onChange={(e) => setFilterValue(e.target.value)} type="text" placeholder="Search.." />
-            <div className="filter-box">
+            <div className="checkbox-box">
                 <input type="checkbox" checked={stockCheckbox} onChange={(e) => setStockCheckbox(e.target.checked)} />
                 <span>Only show products in stock</span>
             </div>
-        </>
+        </div>
     );
 }
