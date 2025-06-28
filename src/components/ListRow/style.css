@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px;
+  border: solid 1px lightgray;
+}
+
+.column {
+  width: 50%;
+}
